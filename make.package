@@ -1,0 +1,4 @@
+DC=$(date +%y%m%d%H%M)
+tar cvzf 03-cearly_cpsc2_999-${DC}.tgz usr
+echo scp 03-cearly_cpsc2_999-${DC}.tgz peter@endor:/home/tftpboot/cpsc2/custom
+

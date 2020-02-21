@@ -1,0 +1,6 @@
+#!/bin/sh
+echo cearly_cpsc2: switch to WR personality
+cd /usr/local
+rm CPSC2_TOP_02_43.bit.gz
+ln -s CPSC2_TOP_02_43_WR.bit.gz CPSC2_TOP_02_43.bit.gz
+
